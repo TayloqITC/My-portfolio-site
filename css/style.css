@@ -10,3 +10,32 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.container{
+    width: 800px;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    height: 50px;
+}
+
+/* header */
+.header__logo > img{
+    width: 114px;
+    height: 41px;
+
+}
+
+.header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav */
+.nav__item{
+    text-decoration: none;
+    color: #232E35;
+    margin-right: 26px;
+}
+/* nav end */
+
+/* header end */
