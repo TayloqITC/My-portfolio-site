@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     /* border: 2px solid black; */
     height: 50px;
@@ -24,7 +24,12 @@ body{
 
 }
 
+.header{
+   
+}
+
 .header__wrapper{
+    margin: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,6 +41,111 @@ body{
     color: #232E35;
     margin-right: 26px;
 }
-/* nav end */
 
+.nav__item:hover{
+    color: rgb(15, 240, 45);
+    
+}
+
+.nav__item.active{
+    color: red;
+}
+
+/* nav end */
+.header__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 102px;
+    height: 36px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 3px;
+}
+
+.resume_button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232E35;
+}
+
+.resume_button:hover{
+    font-weight: 100px;
+
+    color: rgb(255, 255, 0);
+    cursor: pointer;
+    /* kursor ko'rinishi */
+}
+
+/* ----------------------- */
+/* intro */
+.line{
+    height: 2px;
+    width: 16px;
+    background-color: #d9d9d9;
+    margin-right: 10px;
+}
+
+.nameis_wrap{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.mynameis{
+    
+
+font-weight: 500;
+font-size: 12px;
+line-height: 24px;
+/* identical to box height, or 200% */
+
+letter-spacing: 7.5px;
+text-transform: uppercase;
+}
+
+.name{
+    font-weight: 700; 
+    /* font-size: 44px; */
+    line-height: 55px; 
+    
+    
+    /* Cinder */
+}
+
+.namecolor{
+     font-weight: 700; 
+    /* font-size: 44px; */
+    line-height: 55px; 
+    
+    /* Cinder */
+    
+    color: #8b09d6;
+}
+
+.description{
+    max-width: 400px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+    color: #232E35;
+}
+
+.intro{
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/* intro */
 /* header end */
+
