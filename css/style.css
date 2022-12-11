@@ -237,6 +237,47 @@ text-transform: uppercase;
 
 /* About end */
 
+
+/* Portfolios begin */
+
+.portfolios{
+    height: 700px;
+    background-color: ;
+    
+}
+
+.portfolio_title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+    color: #232E35;
+    width: 100%;
+}
+
+.portfolio_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    border-image-repeat: no-repeat;
+}
+
+.portfolios_child{
+    width: 361px;
+    height: 402px;
+    border-radius: 8px;
+}
+
+
+.portfolios_img{
+    width: 600px;
+    
+}
+
+.portfolios_child__p{
+    di
+}
+
+
 /* Services begin */
 .services{
     height: 600px;
@@ -383,7 +424,7 @@ input{
 /* Footer begin */
 
 .footer{
-    width: 100%;
+    /* width: 100%; */
     height: 241px;
     background: #FFFFFF;
     display: flex;
