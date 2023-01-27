@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -20,8 +22,8 @@ body{
 /* header */
 .header__logo > img{
     width: 114px;
-    height: 41px;
-
+    height: 80px;
+    border-radius: 10px;
 }
 
 .header{
@@ -37,6 +39,15 @@ body{
 }
 
 /* nav */
+
+.nav{
+    /* background-color: black; */
+    position: fixed;
+    width: 100%;
+    /* right: 10px; */
+    background-color: rgb(255, 255, 255);
+}
+
 .nav__item{
     text-decoration: none;
     color: #232E35;
@@ -52,17 +63,36 @@ body{
     color: red;
 }
 
-/* nav end */
-.header__button:hover{
+.nav-link{
+    color: black;
+    margin-left: 85px;
+
+
+}
+
+
+
+.custom-btn:hover{
+    background-color: #000000;
+}
+
+.hhh{
     display: flex;
+    align-items: center;
     justify-content: center;
+    margin-bottom: 17px;
+}
+
+/* nav end */
+
+.header__button{
+    display: flex;
     align-items: center;
     width: 102px;
     height: 36px;
-    border: 2px solid #fff;
     border-radius: 10px;
     box-shadow: 3px;
-    border: 2px solid black;
+    /* border: 2px solid #232E35; */
 }
 
 .resume_button{
@@ -71,7 +101,6 @@ body{
     line-height: 19px;
     color: #232E35;
     text-transform: none;
-    
 }
 
 .resume_button:hover{
@@ -127,7 +156,7 @@ text-transform: uppercase;
     
     /* Cinder */
     
-    color: #8b09d6;
+    color:#8b09d6;
 }
 
 .description{
@@ -242,7 +271,7 @@ text-transform: uppercase;
 
 .portfolios{
     height: 700px;
-    background-color: ;
+    
     
 }
 
@@ -274,14 +303,18 @@ text-transform: uppercase;
 }
 
 .portfolios_child__p{
-    di
+    margin: 10px;
 }
 
+
+.services__p1{
+
+}
 
 /* Services begin */
 .services{
     height: 600px;
-    /* background-color: antiquewhite; */
+    
 }
 
 .secvices_title{
@@ -320,13 +353,16 @@ text-transform: uppercase;
 } */
 
 .contact{
-    height: 750px;
+    height: 400px;
     background-color: #FBFBFB;
+    transition-timing-function:ease-in 55ms;
+    
 }
 
 .contact_wrapper{
     display: flex;
     justify-content: space-between;
+    margin: 10px;
 }
 
 .form{
@@ -379,7 +415,7 @@ input{
 }
 
 .send_message{
-    width: 600px;
+    width: 578px;
     height: 49px;
     background: #7E74F1;
     border: 1px solid #EAE6FE;
